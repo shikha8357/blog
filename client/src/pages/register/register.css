@@ -1,0 +1,53 @@
+.register{
+    height:calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:url("../.././lightheme.jpg") ;
+    opacity: 0.9;
+    background-size: cover;
+    /* margin-top: 50px; */
+
+}  
+.registertitle{
+    margin-top: 50px;
+    font-size: 50px;
+}
+.registerform{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.registerform > label{
+  margin:10px 0;
+  color: black;
+
+}
+.registerinput{
+padding:10px;
+background-color: white;
+border:none;
+
+}
+.registerbutton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: teal;
+    border:none;
+    color:white;
+    border-radius: 12px;
+    padding:10px;
+}
+.registerloginbutton{
+    position: absolute;
+    top:60px;
+    right: 20px;
+    background-color: rgb(245, 118, 118);
+    cursor: pointer;
+    border:none;
+    color: white;
+    padding:10px;
+    border-radius: 10px;
+
+
+}

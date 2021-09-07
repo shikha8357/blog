@@ -1,0 +1,58 @@
+.login{
+    height:calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:url("../.././lightheme.jpg") ;
+    opacity: 0.9;
+    background-size: cover;
+    /* margin-top: 50px; */
+
+}  
+.logintitle{
+    margin-top: 50px;
+    font-size: 50px;
+}
+.loginform{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.loginform > label{
+  margin:10px 0;
+  color: black;
+
+}
+.logininput{
+padding:10px;
+background-color: white;
+border:none;
+
+}
+.loginbutton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: rgb(245, 118, 118);
+    border:none;
+    color:white;
+    border-radius: 12px;
+    padding:10px;
+}
+
+.loginbutton:disabled{
+cursor: not-allowed;
+background-color: coral;
+}
+.loginregisterbutton{
+    position: absolute;
+    top:60px;
+    right: 20px;
+    background-color:teal;
+    cursor: pointer;
+    border:none;
+    color: white;
+    padding:10px;
+    border-radius: 10px;
+
+
+}

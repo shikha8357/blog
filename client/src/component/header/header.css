@@ -1,0 +1,23 @@
+.header{
+    margin-top: 60px;
+}
+.headerTitle{
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: "ubuntu ",serif;
+color:#444;
+}
+.headerTitlenode{
+    position: absolute ;
+    top:18%;
+    font-size: 18px;
+
+}
+.headerTitlebg{
+top:20%;
+position: absolute;
+font-size: 80px;
+color:white;
+/* image:url("img2.jpg")no-repeat ; */
+}
