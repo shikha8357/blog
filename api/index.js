@@ -67,7 +67,7 @@ app.post("/comment/new",newComment);
 app.get("/comments/:id",getComments);
 
 
-app.listen("1000", () => {
+app.listen("2000", () => {
     console.log("running");
 });
 
